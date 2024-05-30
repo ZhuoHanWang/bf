@@ -36,7 +36,7 @@
 
 
   // 第三方的库，kjg是一个显示框，各种显示图标的库   
-  import { BorderBox10 as DvBorderBox10, } from '@kjgl77/datav-vue3'
+
   // 生成与后端交互的id的   
   import { nanoid } from 'nanoid'
   

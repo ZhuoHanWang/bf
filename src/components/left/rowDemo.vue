@@ -9,17 +9,15 @@
         </div>
         <!-- 这是中间那条线 -->
         <div small-bg>
-            <Decoration8 :reverse="true" style="width:300px;height:50px;" />
+            <dv-decoration8 :reverse="true" style="width:300px;height:50px;" />
         </div>
         <!-- 默认的颜色是蓝色 -->
-        <Button @click="console.log('click')" border="Border3">
+        <dv-button @click="console.log('click')" border="Border3">
             <!-- 这里放按钮的名字 -->
             <slot name="buttonName"></slot>
-        </Button>
+        </dv-button>
     </div>
 </template>
 
 <script setup lang="ts">
-import { Decoration8 } from '@kjgl77/datav-vue3'
-import { Button } from '@kjgl77/datav-vue3'
 </script>
